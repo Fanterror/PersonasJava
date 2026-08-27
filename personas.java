@@ -10,5 +10,9 @@ public class main{
 		this.edad=edad;
 		this.trabajo=trabajo;
 		}
+		public void presentarse() {
+			System.out.println("Hola, soy" + nombre);
+			System.out.println("Tengo" + edad + "Años");
+		}
 	}
 }
