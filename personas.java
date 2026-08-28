@@ -3,12 +3,6 @@ public class main{
 		public class Persona{
 			String nombre;
 			int edad;
-			String trabajo;
-		
-		public Persona(String nombre, int edad, Trabajo trabajo)
-		this.nombre=nombre;
-		this.edad=edad;
-		this.trabajo=trabajo;
 		}
 		public void presentarse() {
 			System.out.println("Hola, soy" + nombre);
