@@ -1,3 +1,5 @@
+package trabajo2;
+
 public class Vehiculo{
 	String marca;
 	int modelo;
@@ -11,6 +13,7 @@ public class Vehiculo{
 		this.modelo=modelo;
 	}
 	public void mostrarVehiculo() {
-		System.out.println("Marca: ")
+		System.out.println("Marca: " + marca);
+		System.out.println("Modelo: " + modelo);
 	}
 }
