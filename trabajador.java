@@ -1,8 +1,8 @@
-public class trabajador{
-	String empresa;
-	double salario;
-	public void decirTrabajo() {
-		System.out.println("Trabajo en: " + empresa);
-		System.out.println("Y mi salario es de: " + salario);
-	}
+public class Trabajador{
+    String empresa;
+    double salario;
+    public void mostrarTrabajo(){
+        System.out.println("Empresa: " + empresa);
+        System.out.println("Salario: $" + salario);
+    }
 }

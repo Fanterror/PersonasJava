@@ -1,7 +1,7 @@
-public class profesor extends trabajador{
-	String materia;
-	public void decirProfesor() {
-		mostrarTrabajo();
-		System.out.println("Mi materia es: " + materia);
-	}
+public class Profesor extends Trabajador{
+    String materia;
+    public void mostrarProfesor(){
+        mostrarTrabajo();
+        System.out.println("Mi materia es: " + materia);
+    }
 }

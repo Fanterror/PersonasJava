@@ -1,8 +1,7 @@
-public class jardinero extends persona{
-	String herramienta
-	String planta;
-	public void decirJardinero() {
-		mostrarDatos();
-		System.out.println("Estoy usando una " + "y estoy plantando un/a: " + planta);
-	}
+public class Jardinero extends Persona{
+    String planta;
+    public void mostrarJardinero){
+        mostrarDatos();
+        System.out.println("Mi planta favorita es: " + planta);
+    }
 }
