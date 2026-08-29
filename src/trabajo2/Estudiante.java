@@ -3,7 +3,7 @@ package trabajo2;
 public class Estudiante extends Persona{
 	String carrera;
 	public Estudiante() {
-		Super();
+		super();
 		carrera="Sin carrera";
 	}
 	public Estudiante(String nombre, int edad, String carrera) {
@@ -12,6 +12,6 @@ public class Estudiante extends Persona{
 	}
 	public void mostrarEstudiante() {
 		mostrarDatos();
-		System.out.println("Carrera: " carrera);
+		System.out.println("Carrera: " + carrera);
 	}
 }
