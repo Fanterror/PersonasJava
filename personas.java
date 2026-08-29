@@ -1,6 +1,6 @@
 public class main{
 	public static void main(String[] args) {
-		public class Persona{
+		public class persona{
 			String nombre;
 			int edad;
 		}
